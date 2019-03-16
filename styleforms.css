@@ -1,0 +1,746 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.lists{
+    font-weight: bold;
+    font-size: 17px;
+    color: #75D6C3;
+}
+
+.btn_txt{
+    font-size:17px;
+}
+.btn-group-lg>.btn, .btn-lg {
+ 
+    border-radius: .0rem;
+}
+
+
+.form-control {
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    color: #CDCDCD;
+}
+
+.form-control2 {
+    background-color:#F1F1F1; 
+    border:#F1F1F1; 
+    border-bottom: 1px solid black;
+
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute; 
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 18px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: black;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -10px;
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #62D1BA;
+    position: absolute;
+    top: 6px;
+    left: -27px;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+.contain3 {
+    display: table-row; 
+    }
+
+.contain {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px; 
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .contain input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 1px solid black;
+
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .contain:hover input ~ .checkmark {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .contain input:checked ~ .checkmark {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .contain input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .contain .checkmark:after {
+    left: 16px;
+    top: 7px;
+    width: 10px;
+    height: 20px;
+    border: 1px solid black;
+    border-width: 0 2px 2px 0; 
+    transform: rotate(45deg);
+  }
+.check__text{
+    padding-left: 25px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size:17px;
+}
+.check_block{
+    margin-right: 20px;
+}
+
+
+
+
+
+ 
+.form-check { 
+    padding-left: 0.55rem;
+}
+
+.footer1{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: auto;
+     margin-top: -40px; 
+    z-index: 1;
+    position: relative;
+}
+
+.footer2{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.marg1{
+    margin-top: 50px;
+    margin-left: -150px;
+    width: 1440px;
+}
+
+.discr{
+    color: #90DECE;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.discr1{
+    font-size: 53px;
+    margin-top: 70px;  
+    text-align: center;
+    height: 200px;
+}
+
+.discr2{
+    font-size: 17px;
+    color:#575757;
+}
+
+    .brdr4{
+        border-top: 2px solid lightgrey;
+        margin-top: -10px;
+        margin-left: 5%;
+        width: 90%;
+        z-index: 50;
+        position: relative;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+        font-size: 17px;
+    }
+
+
+    .onpic1{
+        margin-top: 40px;
+        color: black;
+        font-size: 15px;  
+        z-index: 50;
+        position: relative; 
+    }
+
+    .onpic{
+        
+        z-index: 10;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .onpic2{
+        z-index: 10;
+        position: relative;
+    }
+
+    .greybgr{
+        z-index: 0;
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin-top:40px;
+      
+    }
+
+ 
+
+#background {
+    /* position: fixed;  */
+    top: 0; 
+    left: 0; 
+  
+    /* Preserve aspet ratio */
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+  }
+
+  
+
+.allgreyblock{
+z-index: 120;
+position: relative;
+height: auto;
+}
+
+
+.zigzag{
+    z-index: 200;
+    position: relative; 
+}
+.zigzag2{
+    margin-top: -40px;
+}
+
+.message{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+  
+ 
+.footer{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 100px;
+    margin-top:40px;
+}
+
+#parent {
+	justify-content: space-between;
+	flex-direction: row;
+    display: flex;
+    padding-top:40px;
+    
+}
+
+#parent1 {
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+    height: 100%;
+    text-align: center;
+}
+ 
+
+
+
+@media (min-width: 1400px){
+
+
+
+    .left-p{
+        margin-left:70px;
+        margin-right:70px;
+    }
+    .brdr2{
+        border-left: 1px solid lightgrey;
+        padding-left: 17px;
+        z-index: 50;
+        position: relative;
+    }
+    .brdr3{
+        border-left: 1px solid lightgrey;
+        padding-left: 17px;
+    }
+
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1399px)  {
+
+    .left-p{
+        margin-left:50px;
+        margin-right:70px;
+    }
+
+    .brdr2{
+        border-left: 1px solid lightgrey;
+        z-index: 50;
+        position: relative;
+    }
+    .brdr3{
+        border-left: 1px solid lightgrey;
+        padding-left: 17px;
+    }
+
+}
+
+
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+    .left-p{
+    margin-left:25px;
+    }
+
+    .brdr2{
+        border-left: 1px solid lightgrey;
+        padding-left: 12px;
+    }
+    .brdr3{
+        border-left: 1px solid lightgrey;
+    }
+
+
+}
+
+
+
+@media (min-width: 845px){
+   
+    .allgreyblock {
+        z-index: 120;
+        position: relative;
+         
+    }
+    .discr{
+        z-index: 10;
+        position: relative;}
+
+    .discr1{
+        z-index: 10;
+        position: relative;}
+
+
+    .zigzag{
+        margin-top: 5px;
+    }
+    
+    .row1{
+        white-space: nowrap;
+    }
+
+    .top-p{
+        padding-top:30px;
+    }
+
+    .brdr{
+        border-left: 1px solid lightgrey;
+        margin-left: 20px;
+    }
+
+    .onpic2{
+       margin-top: 160px;  
+       color: black;
+       font-size: 53px;
+    }
+
+    .onpic{
+        margin-top: 15px; 
+    }
+  
+}
+   
+
+
+@media (min-width: 769px) and (max-width: 991px) { 
+
+        .check_b_last{
+    margin-left:125px;
+    margin-top:-30px;
+ }
+
+        .check_b_last1{
+            margin-left:115px;       
+  }
+
+    .feedb2{
+        z-index: 200;
+        position: relative;
+         margin-left: -300px; 
+    }
+
+    .zigzag{
+        margin-top: -3px;
+    }
+    .row1{
+        white-space: nowrap;
+    }
+    .brdr2{
+        border-left: 1px solid lightgrey;
+        padding-left: 20px;
+    }
+
+    .left-p{
+        margin-right:55px;
+    }
+    .greybgr{
+        background-color: #F9F9F9;
+       margin-top: -390px; 
+
+     }
+ 
+}
+
+@media (min-width: 770px) and (max-width: 845px)  {
+   
+    .zigzag{
+        margin-top: 0px;
+    }
+    .row1{
+        white-space: nowrap;
+    }
+
+    
+     .onpic{
+        margin-top: 15px; 
+    }
+    .onpic2{
+        font-size: 43px;
+        margin-top: 45px;
+     }
+
+     .brdr2{
+        border-left: 1px solid lightgrey;
+        padding-left: 20px;
+    }
+    .brdr{
+        border-left: 1px solid lightgrey;
+        margin-left: 20px;
+    }
+
+
+}
+
+
+
+  
+@media (min-width: 628px) and (max-width: 769px) {
+
+    .check_b_last{
+        margin-left:95px;
+        margin-top:-30px;
+ }
+        
+    .check_b_last1{
+        margin-left:10px;
+ }
+       .feedb2{
+        z-index: 200;
+        position: relative;
+         margin-left: -250px; 
+         font-size: 14px;
+         margin-top: 30px;
+ }
+
+    .feedb3{
+        font-size: 14px;
+        margin-top: 17px;
+    }
+    .discr1{
+        font-size: 43px;
+    }
+    .greybgr{
+         margin-top:-255px; 
+    }
+    .row1{
+        white-space: nowrap;
+    }
+
+    .brdr{
+        border-left: 1px solid lightgrey;
+    }
+
+    .onpic2{
+    color: black;
+    font-size: 43px;
+    margin-top:70px; 
+    }
+        
+    .onpic{
+        margin-top: 10px; 
+    }
+
+    .brdr2{
+        border-left: 1px solid lightgrey;
+        padding-left: 20px;
+    }
+    .top-p{
+        padding-top:15px;
+    }
+    
+}
+
+
+
+@media (min-width: 576px) and (max-width: 627px) { 
+    .extra { 
+        margin-left: 90px;
+    }
+    .row1{
+        white-space: nowrap;
+    }
+   
+    .discr1{
+        font-size: 43px;
+    }
+    .greybgr{
+       margin-top: -225px; 
+    }
+    .onpic2{
+        color: black;
+        font-size: 33px;
+        margin-top: 70px; 
+        }
+        .brdr{
+            border-left: 1px solid lightgrey;
+        }
+        .brdr2{
+            border-left: 1px solid lightgrey;
+            padding-left: 20px;
+        }
+        
+}
+
+
+@media (min-width: 501px) and (max-width: 575px) {
+
+    .check_b_last {
+        margin-left: 80px;
+        margin-top: -30px;
+    }
+
+    .check_b_last1{
+        margin-left:515px;
+            } 
+     
+    .discr1   {
+        font-size: 40px;
+       }
+       
+       .discr{
+        font-size: 17px;
+        text-align: left;
+       }
+
+    .greybgr{
+       margin-top: -220px; 
+    }
+    .onpic2{
+        color: black;
+        font-size: 33px;
+        margin-top: 100px; 
+        }
+
+       
+.items{
+    margin-top: -215px;
+}
+.toys{
+    margin-top: 60px;
+}
+}
+
+@media (min-width: 350px) and (max-width: 500px)   { 
+  
+    .message {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .discr1 { 
+        margin-top: 30px; 
+        height: 100px;
+    }
+    .check__text {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+     .contain {
+        display: inline; 
+        }
+ 
+        .discr1   {
+            font-size: 40px;
+           }
+           
+    .discr1   {
+    font-size: 25px;
+   }
+   
+   .discr{
+    font-size: 17px;
+    text-align: left;
+   }
+   
+
+    .onpic2{
+        color: black;
+        font-size: 27px;
+        margin-top: 20px;  
+    }
+
+    .greybgr{
+       margin-top: -120px; 
+    }
+    
+    .items{
+        margin-top: -165px;
+        margin-left: 20px;
+    }
+    .toys{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+   
+    
+}
+    @media (max-width: 349px)   {
+         .message {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        } 
+        .discr1 { 
+            margin-top: 70px; 
+            height: 100px;
+        }
+        .check__text {
+            padding-left: 0px;
+            padding-bottom: 0px;
+        }
+        .discr1   {
+            font-size: 25px;
+           }
+           
+           .discr{
+            font-size: 14px;
+            text-align: left;
+           }
+        .brdr4{
+            margin-top: 5px;
+    
+        }
+    
+        .onpic2{
+            color: black;
+            font-size: 27px;
+            margin-top: 20px;  
+        }
+    
+        .greybgr{
+           margin-top: -120px; 
+        }
+    
+        .items{
+            margin-top: -140px;
+            margin-left: 20px;
+        }
+        .toys{
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+    }
+
+
+

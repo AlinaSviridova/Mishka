@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.third{
+    margin-top: -359px; 
+   margin-left: -25px; 
+  z-index: 50;
+  position: relative;
+}
+
+
+.greybgr{
+    background-color: red;
+}
+    
+/* .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 56%;
+    max-width: 50%;
+    z-index: 60;
+    position: relative;
+} */
+
+ /* для больших */
+@media screen and (min-width: 980px){
+        .mainpage{
+            /* margin-left: 6%;
+            margin-right: 10%; */
+            width: 1140px;
+        }
+        .row{
+            width: 1140px;
+            z-index: 1000;
+            position: relative;
+        } 
+        .nav-item{
+            margin-left: 15px;
+        }
+
+        .leftb{
+            padding-left:0px;
+            padding-top:13px;
+            font-size: 17px;
+        }
+        .rightb{
+            padding-top:13px;
+            padding-right: 0px;
+            padding-left:0%;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: black;
+            font-size: 17px;
+        }
+        .second{
+            margin-top: 25px;
+            margin-left: 5px;
+            font-size: 15px;
+            z-index: 100;
+            position: relative;
+        }
+
+        .secondb{
+            padding-left: 50px;
+        }
+
+        .brdr{
+            border-left: 1.5px solid lightgrey;
+            padding-right: 10px;
+            padding-left: 35px;
+            
+        }
+        .brdr1{
+            border-left: 1.5px solid lightgrey;
+            padding-left: 10px;
+        }
+
+        .brdr2{
+            border-top: 2px solid lightgrey;
+            /* padding-left: 10px; */
+            margin-top: -10px;
+            width: 1200px;
+        }
+
+        .logo-lg{
+            margin-left: -45px;
+        }
+
+        .title1{
+            font-size: 53px;
+            margin-top: 137px;
+            z-index: 100;
+            position: relative;
+                }
+        .green{
+            padding-left: 30px;
+            margin-top: -125px;
+            z-index: 100;
+            position: relative;
+        }
+
+        .greenText{
+            padding-left: 70px;
+            margin-top: -100px;
+            color: white;
+            font-size: 20px;
+            
+        }
+        
+        .zigzag{
+            z-index: 120;
+            position: relative;
+            margin-top: 12px;
+        }
+
+.korzinki{
+    border: 1px solid red;
+    margin-left: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.korzinki1{
+    border: 1px solid blue;
+    margin-left: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.title3{
+font-size: 53px;
+}
+
+.korzinki2{
+    position: relative;
+    z-index: 10;
+    border: 1px solid green;
+    /* -ms-flex: 0 0 50%;
+    flex: 0 0 56%; */
+    /* margin-top: -70px; */
+}
+
+
+
+    }
+
+    
+    /* @media (min-width: 768px){
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 46%;
+    max-width: 50%;
+}} */
+
+/* для планшетов */
+@media screen and (max-width: 991px){
+    
+    
+        .navtab{
+                width: 100%;
+            }
+
+        .navbar-light .navbar-nav .nav-link{
+            z-index: 1000;
+            position: relative;
+        }
+        .brdr{
+            border-left: 1px solid lightgrey;
+            padding-right: 0px;
+        } 
+
+        .brdr2{
+            border-top: 1px solid lightgrey;
+            margin-top: -10px;
+            width: 991px;
+        }
+
+        .second{
+            z-index: 100;
+            position: relative;
+            margin-top: 0;
+        }
+
+        .title1{
+            font-size: 43px;
+            margin-top: 100px;
+            z-index: 100;
+            position: relative;
+            height: 380px;
+        }
+
+
+
+        .third{
+            margin-top: 0px;
+        }
+
+
+        .green{
+            margin-top: 0px;
+            z-index: 100;
+            position: relative;
+        }
+
+        .greenText{
+            padding-left: 90px;
+            margin-top: -100px;
+            color: white;
+            font-size: 20px;
+            z-index: 110;
+            position: relative;
+        }
+        
+        .zigzag{
+            z-index: 120;
+            position: relative;
+            margin-top: 15px;
+            
+            
+        }
+
+        .greenline{
+            position: relative;
+            z-index: 210;
+            height: 100px;
+            margin: 0px;
+        }
+
+} 
+
+
+
+/* @media screen and (max-width: 576px){ */
+    @media screen and (max-width: 767px){
+        .backgr{
+            background: url(images/10-hero-tab.jpg);
+            background-size: contain;
+            min-height:320px;
+            background-repeat: no-repeat;
+            background-position: center;
+            top:-120px;
+            min-width:270px;
+            margin-top: 0px;
+        }
+  
+        .brdr3{
+        border-top: 1px solid lightgrey;
+        margin-top: 20px;
+    }
+    .title2{
+        font-size: 27px;
+        margin-top: -200px;
+        z-index: 100;
+        position: relative;
+    }
+
+    .third{
+        margin-top: 0px;
+        border: 1px solid red;
+    } 
+
+
+.green{
+    padding-left: 20px; 
+}
+    .greenText1{ 
+         color: white;
+         font-size: 19px;
+         z-index: 110;
+         position: relative;
+         margin-top: -200px;
+         padding-left: 40px;
+}
+
+.greenText2{ 
+    color: white;
+    font-size: 19px;
+    z-index: 110;
+    position: relative;
+    margin-top: 50px;
+         padding-left: 40px;
+}
+}
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+    .header
+    {
+    background-image: url("graphics/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    }
+    .header .navbar + .container    {
+    padding-top: 105px;
+    }
+
+
+
+@media (min-width: 1400px) { 
+    .header    { 
+    background-image: url("graphics/main-bg-lg.jpg");	
+    background-position: center bottom;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1399px)  {
+
+    @media (min-width: 992px) and (max-width: 1199px) { 
+            .header            {
+            background-size: 1199px;
+            background-position: center top;
+            }
+
+
+     @media (min-width: 768px) and (max-width: 991px) /* РњР°Р»РѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ SM */
+            /* {
+                #basket_modal .modal-dialog {
+                width: 768px;
+                margin: 30px auto;
+                }
+                
+                .header {
+                background-size: 991px;
+                background-position: center top;
+                }
+                .header .navbar + .container {
+                padding-top: 75px;
+                }
+
+    @media (min-width: 500px) and (max-width: 767px)  {
+                    .header {
+                    background-size: 767px;
+                    background-position: right -70px;
+                    }
+                    .header .navbar + .container {
+                    padding-top: 335px;
+                    }
+
+
+    @media (max-width: 499px)   { 
+                        .header {
+                        background-size: 500px;
+                        background-position: right -50px;
+                        }
+                        .header .navbar + .container  {
+                        padding-top: 200px;
+                        }
+
+
+     @media (max-height: 500px){ */
+
